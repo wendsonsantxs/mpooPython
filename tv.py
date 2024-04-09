@@ -129,7 +129,7 @@ class Tv():
         elif(escolha==6):
             self.volumeMudo()
         elif(escolha==7):
-            self.desligada
+            self.desligada()
         else:
             print('Opção invalida, voltando para informações')
             self.getInfo()
